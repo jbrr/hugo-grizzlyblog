@@ -1,8 +1,8 @@
 {
-  "name": "hugo-bearblog",
+  "name": "hugo-grizzlymod",
   "private": true,
   "version": "1.0.0",
-  "description": "🧸 A [Hugo](https://gohugo.io/)-theme based on [Bear Blog](https://bearblog.dev).",
+  "description": "🧸 A modification of the [hugo-bearblog](https://github.com/janraasch/hugo-bearblog) theme.",
   "main": "index.js",
   "devDependencies": {
     "js-beautify": "^1.14.6"
@@ -13,16 +13,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/janraasch/hugo-bearblog.git"
+    "url": "git+https://github.comjbrr/hugo-grizzlyblog.git"
   },
   "author": {
-    "name": "Jan Raasch",
-    "email": "jan@janraasch.com",
-    "url": "https://www.janraasch.com"
+    "name": "Jeff Ruane",
+    "email": "yo@jbrr.dev",
+    "url": "https://jbrr.dev"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/janraasch/hugo-bearblog/issues"
+    "url": "https://github.comjbrr/hugo-grizzlyblog/issues"
   },
-  "homepage": "https://github.com/janraasch/hugo-bearblog#readme"
+  "homepage": "https://github.comjbrr/hugo-grizzlyblog#readme"
 }

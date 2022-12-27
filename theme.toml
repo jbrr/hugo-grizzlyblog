@@ -1,12 +1,11 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
-name = "Hugo Bear Blog"
+name = "Hugo Grizzly Blog"
 license = "MIT"
-licenselink = "https://github.com/janraasch/hugo-bearblog/blob/master/LICENSE"
+licenselink = "https://github.com/jbrr/hugo-grizzlyblog/blob/main/LICENSE"
 description = "A Hugo theme based on »Bear Blog«. Free, no-nonsense, super-fast blogging. »Bear Blog« now includes a dark color scheme to support dark mode!"
-homepage = "https://github.com/janraasch/hugo-bearblog"
-demosite = "https://janraasch.github.io/hugo-bearblog/"
+homepage = "https://github.com/jbrr/hugo-grizzlyblog"
 tags = ["blog", "responsive", "minimal", "seo", "clean", "simple", "light", "minimalist", "mobile", "fast", "white", "minimalistic", "reading", "dark mode"]
 features = ["favicon", "seo", "no stylesheets", "no javascript", "rss", "dark mode"]
 min_version = "0.73.0"
@@ -15,11 +14,9 @@ min_version = "0.73.0"
 # https://gohugo.io/templates/taxonomy-templates/#example-list-all-site-tags
 
 [author]
+  name = "Jeff Ruane"
+  homepage = "https://jbrr.dev"
+
+[original]
   name = "Jan Raasch"
   homepage = "https://www.janraasch.com"
-
-# If porting an existing theme
-[original]
-  name = "ʕ•ᴥ•ʔ Bear Blog"
-  homepage = "https://bearblog.dev"
-  repo = "https://github.com/HermanMartinus/bearblog"
