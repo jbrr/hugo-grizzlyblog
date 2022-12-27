@@ -1,6 +1,6 @@
 {{ define "main" }}
-{{ if eq .Type "article" }}{{ if not .Params.menu }}
 <article class="h-entry">
+  {{ if eq .Type "article" }}{{ if not .Params.menu }}
   <h1 class="p-name">{{ .Title }}</h1>
   <p>
     <i>
@@ -10,13 +10,13 @@
     </i>
   </p>
   {{ end }}{{ end }}
-  <p class="e-content">
+  <div class="e-content">
     {{ .Content }}
-  </p>
-  <p>
+  </div>
+  <section class="tag-list">
     {{ range (.GetTerms "tags") }}
     <a clsss="p-category" href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
     {{ end }}
-  </p>
+  </section>
 </article>
 {{ end }}
