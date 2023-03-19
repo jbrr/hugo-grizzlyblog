@@ -5,7 +5,7 @@
   "description": "🧸 A modification of the [hugo-bearblog](https://github.com/janraasch/hugo-bearblog) theme.",
   "main": "index.js",
   "devDependencies": {
-    "js-beautify": "^1.14.6"
+    "js-beautify": "^1.14.7"
   },
   "scripts": {
     "test": "npm run beautify",
